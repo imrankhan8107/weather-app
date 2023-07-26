@@ -13,7 +13,7 @@ export default function ForecastChart() {
   const { forecastData } = useContext(weatherContext);
 
   return (
-    <LineChart width={900} height={400} data={forecastData} className="chart">
+    <LineChart width={950} height={400} data={forecastData} className="chart">
       <CartesianGrid strokeDasharray="3 3" />
       <XAxis dataKey="date" />
       <YAxis dataKey="temperature" />
