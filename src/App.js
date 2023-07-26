@@ -96,6 +96,9 @@ function App() {
       );
       const data = await response.json();
       setweatherData(data);
+      fetchData(
+        `https://api.openweathermap.org/data/2.5/forecast?lat=${latitude}&lon=${longitude}&appid=${API_KEY}&units=metric`
+      );
     }
   };
 
