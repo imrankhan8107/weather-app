@@ -1,0 +1,111 @@
+.right-pane {
+  display: inline-block;
+  width: 30%;
+  height: 100%;
+  background-color: #1e3453;
+  color: #fff;
+  overflow: scroll;
+}
+
+.rp-up {
+  padding: 1rem;
+}
+
+.rp-up-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+hr {
+  margin: 0;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+span {
+  display: inline-flexbox;
+}
+
+.city-name {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin: 0;
+}
+
+.country {
+  font-size: 1rem;
+  font-weight: 300;
+  color: #ccc;
+  margin: 0;
+}
+
+.time {
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+.rp-icon {
+  height: 35px;
+  width: 50px;
+}
+
+.rp-up-lower {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.temp {
+  font-size: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.rp-down {
+  padding: 1rem;
+}
+
+.bars {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  background-color: blueviolet;
+  height: 1rem;
+}
+
+.rp-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+  background-color: #2c487c;
+  flex: 1 0 0;
+}
+
+.rp-cards-icon {
+  display: inline-flex;
+  margin: 0;
+  padding: 0;
+  height: 2.25rem;
+  width: 2.25rem;
+}
+
+.rp-cards-texts {
+  margin: 0;
+  padding: 0;
+  color: #cbcbcb;
+  font-size: 1rem;
+}
+
+.rp-cards-time {
+  margin: 0;
+  padding: 0;
+  font-size: 1.25rem;
+}

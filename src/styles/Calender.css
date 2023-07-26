@@ -1,0 +1,14 @@
+.CalenderPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.calender{
+    height:60vh;
+    width:60vw;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,11 @@
+.pane-element {
+  padding: 1rem;
+  margin: 0.5rem;
+  cursor: pointer;
+  color: grey;
+  
+}
+
+.active {
+  color: blue;
+}

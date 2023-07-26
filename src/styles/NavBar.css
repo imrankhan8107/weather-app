@@ -1,0 +1,51 @@
+.navbar {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 1rem;
+}
+
+.navbar h2 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.navbar h4 {
+  margin: 0;
+  color: grey;
+  font-size: 1rem;
+}
+
+.navbar-content {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-dates {
+  display: inline-block;
+}
+
+.city-input {
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 0;
+  width: 40%;
+  background-color: #fbfbfb;
+}
+
+.locate {
+  padding: 0.75rem;
+  color: blue;
+}
+
+.locate-icon {
+  height: 20px;
+  width: 20px;
+}
+

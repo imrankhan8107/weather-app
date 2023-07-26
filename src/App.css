@@ -1,0 +1,7 @@
+.App {
+  /* margin: 1rem; */
+  background-color: cyan;
+  display: flex;
+  align-items: flex-start;
+  height: 100vh;
+}

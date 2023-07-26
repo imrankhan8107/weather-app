@@ -1,0 +1,51 @@
+.middle-pane {
+  height: 100%;
+  width: 70%;
+  display: inline-block;
+  justify-content: start;
+  background-color: white;
+  overflow: scroll;
+}
+
+.middle-pane__cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  place-items: center;
+}
+
+.card {
+  margin: 0.5rem;
+  padding: 0.2rem;
+  background-color: whitesmoke;
+  display: inline-block;
+  border-radius: 1rem;
+  width: 80%;
+}
+
+.card .icon {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  color: blue;
+  height: 30px;
+  width: 30px;
+}
+
+span {
+  display: inline-block;
+  padding: 1rem;
+}
+
+.card h2,
+h4 {
+  margin: 0;
+  padding: 0;
+}
+
+.card h5 {
+  display: inline-block;
+}
+
+.chart {
+  margin-top: 1rem;
+}
